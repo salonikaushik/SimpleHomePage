@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'montserrat';
+}
+header{
+    background: url('header.jpg');
+    width:100%;
+    height:500px;
+    background-size: cover;
+}
+.header-top{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h3{
+    color:#fff;
+    margin-left: 80px;
+
+    
+}
+header nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+header nav ul li{
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0px 20px;
+    
+}
+header nav ul li a{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none; 
+}
+.transparent{
+    background:rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.transparent h5{
+    font-size:16px;
+}
+.header-tail {
+    height: calc(90% - 70px);
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.transparent hr{
+    width: 30%;
+    margin: 10px 0px;
+}
+.transparent button{
+    background: red;
+    border:none;
+    color:white;
+    padding: 0.8em;
+    margin:13px 0px; 
+    border-radius: 5px;
+}
